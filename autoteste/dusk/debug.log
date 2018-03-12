@@ -1,3 +1,0 @@
-[0307/163118.850:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
-[0307/163118.855:ERROR:exception_snapshot_win.cc(88)] thread ID 17988 not found in process
-[0307/163118.855:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed

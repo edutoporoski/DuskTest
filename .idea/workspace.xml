@@ -1,7 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b48ffa0-c28b-4d4f-9cf4-bb92ce2b404f" name="Default" comment="" />
+    <list default="true" id="6b48ffa0-c28b-4d4f-9cf4-bb92ce2b404f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/LaravelDusk.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/autoteste/.env.example" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/.gitattributes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Console/Kernel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Exceptions/Handler.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Http/Controllers/Auth/ForgotPasswordController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Http/Controllers/Auth/LoginController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Http/Controllers/Auth/RegisterController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Http/Controllers/Auth/ResetPasswordController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Http/Controllers/Controller.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Http/Kernel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Http/Middleware/EncryptCookies.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Http/Middleware/TrimStrings.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Http/Middleware/TrustProxies.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Http/Middleware/VerifyCsrfToken.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Providers/AppServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Providers/AuthServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Providers/BroadcastServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Providers/EventServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/Providers/RouteServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/app/User.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/artisan" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/bootstrap/app.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/bootstrap/cache/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/composer.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/config/app.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/config/auth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/config/broadcasting.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/config/cache.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/config/database.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/config/filesystems.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/config/hashing.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/config/logging.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/config/mail.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/config/queue.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/config/services.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/config/session.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/config/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/database/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/database/factories/UserFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/database/seeds/DatabaseSeeder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/.env.example" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/.gitattributes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Console/Kernel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Exceptions/Handler.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Http/Controllers/Auth/ForgotPasswordController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Http/Controllers/Auth/LoginController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Http/Controllers/Auth/RegisterController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Http/Controllers/Auth/ResetPasswordController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Http/Controllers/Controller.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Http/Kernel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Http/Middleware/EncryptCookies.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Http/Middleware/TrimStrings.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Http/Middleware/TrustProxies.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Http/Middleware/VerifyCsrfToken.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Providers/AppServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Providers/AuthServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Providers/BroadcastServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Providers/EventServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/Providers/RouteServiceProvider.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/app/User.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/artisan" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/bootstrap/app.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/bootstrap/cache/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/composer.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/config/app.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/config/auth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/config/broadcasting.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/config/cache.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/config/database.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/config/filesystems.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/config/hashing.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/config/logging.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/config/mail.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/config/queue.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/config/services.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/config/session.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/config/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/database/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/database/factories/UserFactory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/database/seeds/DatabaseSeeder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/debug.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/phpunit.dusk.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/phpunit.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/public/.htaccess" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/public/css/app.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/public/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/public/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/public/js/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/public/robots.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/resources/assets/js/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/resources/assets/js/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/resources/assets/js/components/ExampleComponent.vue" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/resources/assets/sass/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/resources/assets/sass/app.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/resources/lang/en/auth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/resources/lang/en/pagination.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/resources/lang/en/passwords.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/resources/lang/en/validation.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/resources/views/welcome.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/routes/api.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/routes/channels.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/routes/console.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/routes/web.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/server.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/storage/app/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/storage/app/public/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/storage/framework/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/storage/framework/cache/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/storage/framework/sessions/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/storage/framework/testing/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/storage/framework/views/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/storage/logs/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/tests/Browser/AvaLogin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/tests/Browser/ExampleTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/tests/Browser/Pages/HomePage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/tests/Browser/Pages/Page.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/tests/Browser/console/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/tests/Browser/screenshots/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/tests/CreatesApplication.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/tests/DuskTestCase.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/tests/Feature/ExampleTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/tests/TestCase.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/tests/Unit/ExampleTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/webpack.mix.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/dusk/yarn.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/packages.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/phpunit.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/server.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/webpack.mix.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/autoteste/yarn.lock" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,66 +165,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="professorTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1472">
-              <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
-              <folding>
-                <element signature="e#1449#2778#0#PHP" expanded="false" />
-                <element signature="e#2784#4377#0#PHP" expanded="false" />
-                <element signature="e#4383#5930#0#PHP" expanded="false" />
-                <element signature="e#5936#6800#0#PHP" expanded="false" />
-                <element signature="e#6806#7478#0#PHP" expanded="false" />
-                <element signature="e#7484#8312#0#PHP" expanded="false" />
-                <element signature="e#8318#8933#0#PHP" expanded="false" />
-                <element signature="e#8940#10510#0#PHP" expanded="false" />
-                <element signature="e#10516#11714#0#PHP" expanded="false" />
-                <element signature="e#11720#12595#0#PHP" expanded="false" />
-                <element signature="e#14792#15515#0#PHP" expanded="false" />
-                <element signature="e#15521#16264#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coordenadorTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php">
+        <entry file="file://$PROJECT_DIR$/AvaDusk/tests/Browser/professorTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="472">
-              <caret line="499" column="5" lean-forward="false" selection-start-line="499" selection-start-column="5" selection-end-line="499" selection-end-column="5" />
+              <caret line="772" column="0" lean-forward="false" selection-start-line="772" selection-start-column="0" selection-end-line="772" selection-end-column="0" />
               <folding>
-                <element signature="e#568#1407#0#PHP" expanded="false" />
-                <element signature="e#1413#2745#0#PHP" expanded="false" />
-                <element signature="e#2751#4347#0#PHP" expanded="false" />
-                <element signature="e#4353#5903#0#PHP" expanded="false" />
-                <element signature="e#5909#6776#0#PHP" expanded="false" />
-                <element signature="e#6782#7443#0#PHP" expanded="false" />
-                <element signature="e#7449#8280#0#PHP" expanded="false" />
-                <element signature="e#8286#8904#0#PHP" expanded="false" />
-                <element signature="e#8911#10476#0#PHP" expanded="false" />
-                <element signature="e#10482#11680#0#PHP" expanded="false" />
-                <element signature="e#11686#12550#0#PHP" expanded="false" />
-                <element signature="e#12556#13016#0#PHP" expanded="false" />
-                <element signature="e#13023#14726#0#PHP" expanded="false" />
-                <element signature="e#14732#15444#0#PHP" expanded="false" />
-                <element signature="e#15450#16182#0#PHP" expanded="false" />
-                <element signature="e#16189#17487#0#PHP" expanded="false" />
-                <element signature="e#17493#19309#0#PHP" expanded="false" />
-                <element signature="e#19315#20581#0#PHP" expanded="false" />
-                <element signature="e#20588#21759#0#PHP" expanded="false" />
-                <element signature="e#21765#23975#0#PHP" expanded="false" />
-                <element signature="e#23981#27761#0#PHP" expanded="false" />
-                <element signature="e#27767#28608#0#PHP" expanded="false" />
+                <element signature="e#257#398#0#PHP" expanded="false" />
+                <element signature="e#312#390#2#PHP" expanded="false" />
+                <element signature="e#404#1281#0#PHP" expanded="false" />
+                <element signature="e#1287#2616#0#PHP" expanded="false" />
+                <element signature="e#2622#4215#0#PHP" expanded="false" />
+                <element signature="e#4221#5768#0#PHP" expanded="false" />
+                <element signature="e#5774#6638#0#PHP" expanded="false" />
+                <element signature="e#6644#7316#0#PHP" expanded="false" />
+                <element signature="e#7322#8150#0#PHP" expanded="false" />
+                <element signature="e#8156#8771#0#PHP" expanded="false" />
+                <element signature="e#8778#10348#0#PHP" expanded="false" />
+                <element signature="e#10354#11552#0#PHP" expanded="false" />
+                <element signature="e#11558#12433#0#PHP" expanded="false" />
+                <element signature="e#14630#15353#0#PHP" expanded="false" />
+                <element signature="e#15359#16102#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoteste/dusk/.env">
+        <entry file="file://$PROJECT_DIR$/AvaDusk/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DesiredCapabilities.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AvaDusk/vendor/facebook/webdriver/lib/Remote/DesiredCapabilities.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3806">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,7 +224,11 @@
       <find>professor girafales</find>
       <find>614</find>
       <find>514</find>
+      <find>duskservice</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -102,6 +236,16 @@
         <option value="$PROJECT_DIR$/autoteste/dusk/.env" />
         <option value="$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php" />
         <option value="$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php" />
+        <option value="$PROJECT_DIR$/autoteste/dusk/composer.json" />
+        <option value="$PROJECT_DIR$/autoteste/composer.json" />
+        <option value="$PROJECT_DIR$/AvaTest/vendor/laravel/dusk/src/DuskServiceProvider.php" />
+        <option value="$PROJECT_DIR$/AvaTest/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/AvaTest/config/app.php" />
+        <option value="$PROJECT_DIR$/AvaDusk/config/app.php" />
+        <option value="$PROJECT_DIR$/AvaDusk/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/AvaDusk/vendor/laravel/dusk/src/DuskServiceProvider.php" />
+        <option value="$PROJECT_DIR$/AvaDusk/tests/Browser/professorTest.php" />
+        <option value="$PROJECT_DIR$/AvaDusk/.env" />
       </list>
     </option>
   </component>
@@ -187,10 +331,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="505" />
-    <option name="y" value="-16" />
-    <option name="width" value="996" />
-    <option name="height" value="700" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -211,41 +355,60 @@
         <subPane>
           <expand>
             <path>
-              <item name="LaravelDusk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LaravelDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DuskTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DuskTest" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="LaravelDusk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LaravelDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="autoteste" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DuskTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DuskTest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AvaDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="LaravelDusk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LaravelDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="autoteste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dusk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DuskTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DuskTest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AvaDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="LaravelDusk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LaravelDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="autoteste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dusk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DuskTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DuskTest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AvaDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="facebook" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="LaravelDusk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LaravelDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="autoteste" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dusk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Browser" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DuskTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DuskTest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AvaDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="facebook" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webdriver" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="DuskTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DuskTest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AvaDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="facebook" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webdriver" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="DuskTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DuskTest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AvaDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="facebook" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webdriver" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Remote" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,6 +418,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\eduardo.toporoski\Documents\GitHub\DuskTest\AvaDusk" />
+      <recent name="C:\Users\eduardo.toporoski\Documents\GitHub\DuskTest\AvaTest\app\Providers" />
+      <recent name="C:\Users\eduardo.toporoski\Documents\GitHub\DuskTest\AvaTest" />
       <recent name="C:\Automation\SAE\Plataforma\LaravelDusk\autoteste\dusk\tests\Browser" />
     </key>
   </component>
@@ -270,7 +436,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.professorTest">
+  <component name="RunManager" selected="PHPUnit.Browser">
     <configuration name="Browser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/autoteste/dusk/phpunit.dusk.xml" directory="$PROJECT_DIR$/autoteste/dusk/tests/Browser" use_alternative_configuration_file="true" />
     </configuration>
@@ -304,6 +470,11 @@
       <workItem from="1520342863343" duration="29901000" />
       <workItem from="1520533406111" duration="7849000" />
       <workItem from="1520857222809" duration="202000" />
+      <workItem from="1520861133707" duration="306000" />
+      <workItem from="1520861788871" duration="2079000" />
+      <workItem from="1520865116391" duration="1811000" />
+      <workItem from="1520868118240" duration="17000" />
+      <workItem from="1520868428842" duration="4927000" />
     </task>
     <servers />
   </component>
@@ -331,7 +502,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38500000" />
+    <option name="totallyTimeSpent" value="47640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -339,12 +510,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37068966" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37068966" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37068966" sideWeight="0.49166667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978448" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -352,7 +523,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -369,148 +540,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
-          <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
-          <folding>
-            <element signature="e#1449#2778#0#PHP" expanded="false" />
-            <element signature="e#2784#4377#0#PHP" expanded="false" />
-            <element signature="e#4383#5930#0#PHP" expanded="false" />
-            <element signature="e#5936#6800#0#PHP" expanded="false" />
-            <element signature="e#6806#7478#0#PHP" expanded="false" />
-            <element signature="e#7484#8312#0#PHP" expanded="false" />
-            <element signature="e#8318#8933#0#PHP" expanded="false" />
-            <element signature="e#8940#10510#0#PHP" expanded="false" />
-            <element signature="e#10516#11714#0#PHP" expanded="false" />
-            <element signature="e#11720#12595#0#PHP" expanded="false" />
-            <element signature="e#14792#15515#0#PHP" expanded="false" />
-            <element signature="e#15521#16264#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoteste/dusk/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="499" column="5" lean-forward="true" selection-start-line="499" selection-start-column="5" selection-end-line="499" selection-end-column="5" />
-          <folding>
-            <element signature="e#568#1407#0#PHP" expanded="false" />
-            <element signature="e#1413#2745#0#PHP" expanded="false" />
-            <element signature="e#2751#4347#0#PHP" expanded="false" />
-            <element signature="e#4353#5903#0#PHP" expanded="false" />
-            <element signature="e#5909#6776#0#PHP" expanded="false" />
-            <element signature="e#6782#7443#0#PHP" expanded="false" />
-            <element signature="e#7449#8280#0#PHP" expanded="false" />
-            <element signature="e#8286#8904#0#PHP" expanded="false" />
-            <element signature="e#8911#10476#0#PHP" expanded="false" />
-            <element signature="e#10482#11680#0#PHP" expanded="false" />
-            <element signature="e#11686#12550#0#PHP" expanded="false" />
-            <element signature="e#12556#13016#0#PHP" expanded="false" />
-            <element signature="e#13023#14726#0#PHP" expanded="false" />
-            <element signature="e#14732#15444#0#PHP" expanded="false" />
-            <element signature="e#15450#16182#0#PHP" expanded="false" />
-            <element signature="e#16189#17487#0#PHP" expanded="false" />
-            <element signature="e#17493#19309#0#PHP" expanded="false" />
-            <element signature="e#19315#20581#0#PHP" expanded="false" />
-            <element signature="e#20588#21759#0#PHP" expanded="false" />
-            <element signature="e#21765#23975#0#PHP" expanded="false" />
-            <element signature="e#23981#27761#0#PHP" expanded="false" />
-            <element signature="e#27767#28608#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="444" column="0" lean-forward="false" selection-start-line="444" selection-start-column="0" selection-end-line="444" selection-end-column="0" />
-          <folding>
-            <element signature="e#1449#2778#0#PHP" expanded="false" />
-            <element signature="e#2784#4377#0#PHP" expanded="false" />
-            <element signature="e#4383#5930#0#PHP" expanded="false" />
-            <element signature="e#5936#6800#0#PHP" expanded="false" />
-            <element signature="e#6806#7478#0#PHP" expanded="false" />
-            <element signature="e#7484#8312#0#PHP" expanded="false" />
-            <element signature="e#8318#8933#0#PHP" expanded="false" />
-            <element signature="e#8940#10510#0#PHP" expanded="false" />
-            <element signature="e#10516#11714#0#PHP" expanded="false" />
-            <element signature="e#11720#12595#0#PHP" expanded="false" />
-            <element signature="e#14792#15515#0#PHP" expanded="false" />
-            <element signature="e#15521#16264#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoteste/dusk/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17503">
-          <caret line="761" column="19" lean-forward="true" selection-start-line="761" selection-start-column="19" selection-end-line="761" selection-end-column="19" />
-          <folding>
-            <element signature="e#568#1407#0#PHP" expanded="false" />
-            <element signature="e#1413#2745#0#PHP" expanded="false" />
-            <element signature="e#2751#4347#0#PHP" expanded="false" />
-            <element signature="e#4353#5903#0#PHP" expanded="false" />
-            <element signature="e#5909#6776#0#PHP" expanded="false" />
-            <element signature="e#6782#7443#0#PHP" expanded="false" />
-            <element signature="e#7449#8280#0#PHP" expanded="false" />
-            <element signature="e#8286#8904#0#PHP" expanded="false" />
-            <element signature="e#8911#10476#0#PHP" expanded="false" />
-            <element signature="e#10482#11680#0#PHP" expanded="false" />
-            <element signature="e#11686#12550#0#PHP" expanded="false" />
-            <element signature="e#12556#13016#0#PHP" expanded="false" />
-            <element signature="e#13023#14726#0#PHP" expanded="false" />
-            <element signature="e#14732#15444#0#PHP" expanded="false" />
-            <element signature="e#15450#16182#0#PHP" expanded="false" />
-            <element signature="e#16189#17487#0#PHP" expanded="false" />
-            <element signature="e#17493#19309#0#PHP" expanded="false" />
-            <element signature="e#19315#20581#0#PHP" expanded="false" />
-            <element signature="e#20588#21759#0#PHP" expanded="false" />
-            <element signature="e#21765#23975#0#PHP" expanded="false" />
-            <element signature="e#23981#27761#0#PHP" expanded="false" />
-            <element signature="e#27767#28608#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1449#2778#0#PHP" expanded="false" />
-            <element signature="e#2784#4377#0#PHP" expanded="false" />
-            <element signature="e#4383#5930#0#PHP" expanded="false" />
-            <element signature="e#5936#6800#0#PHP" expanded="false" />
-            <element signature="e#6806#7478#0#PHP" expanded="false" />
-            <element signature="e#7484#8312#0#PHP" expanded="false" />
-            <element signature="e#8318#8933#0#PHP" expanded="false" />
-            <element signature="e#8940#10510#0#PHP" expanded="false" />
-            <element signature="e#10516#11714#0#PHP" expanded="false" />
-            <element signature="e#11720#12595#0#PHP" expanded="false" />
-            <element signature="e#14792#15515#0#PHP" expanded="false" />
-            <element signature="e#15521#16264#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoteste/dusk/phpunit.dusk.xml">
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/.env" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/.env" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/phpunit.dusk.xml" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/vendor/autoload.php" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/app/User.php" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/composer.lock" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/composer.json" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/server.php" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/app/Providers/AppServiceProvider.php" />
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/.env" />
+    <entry file="file://$PROJECT_DIR$/autoteste/composer.json" />
+    <entry file="file://$PROJECT_DIR$/AvaTest/.env.example">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -518,63 +567,248 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoteste/dusk/.env">
+    <entry file="file://$PROJECT_DIR$/AvaTest/.env" />
+    <entry file="file://$PROJECT_DIR$/AvaTest/vendor/laravel/dusk/src/DuskServiceProvider.php" />
+    <entry file="file://$PROJECT_DIR$/AvaTest/app/Providers/DuskServiceProvider.php" />
+    <entry file="file://$PROJECT_DIR$/AvaTest/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="115">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php">
+    <entry file="file://$PROJECT_DIR$/AvaTest/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
-          <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaTest/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="152" column="48" lean-forward="false" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
-            <element signature="e#1449#2778#0#PHP" expanded="false" />
-            <element signature="e#2784#4377#0#PHP" expanded="false" />
-            <element signature="e#4383#5930#0#PHP" expanded="false" />
-            <element signature="e#5936#6800#0#PHP" expanded="false" />
-            <element signature="e#6806#7478#0#PHP" expanded="false" />
-            <element signature="e#7484#8312#0#PHP" expanded="false" />
-            <element signature="e#8318#8933#0#PHP" expanded="false" />
-            <element signature="e#8940#10510#0#PHP" expanded="false" />
-            <element signature="e#10516#11714#0#PHP" expanded="false" />
-            <element signature="e#11720#12595#0#PHP" expanded="false" />
-            <element signature="e#14792#15515#0#PHP" expanded="false" />
-            <element signature="e#15521#16264#0#PHP" expanded="false" />
+            <element signature="e#33#72#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php">
+    <entry file="file://$PROJECT_DIR$/AvaDusk/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="152" column="48" lean-forward="false" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/vendor/laravel/dusk/src/DuskServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="41" column="42" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/tests/Browser/professorTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
-          <caret line="499" column="5" lean-forward="false" selection-start-line="499" selection-start-column="5" selection-end-line="499" selection-end-column="5" />
+          <caret line="772" column="0" lean-forward="false" selection-start-line="772" selection-start-column="0" selection-end-line="772" selection-end-column="0" />
           <folding>
-            <element signature="e#568#1407#0#PHP" expanded="false" />
-            <element signature="e#1413#2745#0#PHP" expanded="false" />
-            <element signature="e#2751#4347#0#PHP" expanded="false" />
-            <element signature="e#4353#5903#0#PHP" expanded="false" />
-            <element signature="e#5909#6776#0#PHP" expanded="false" />
-            <element signature="e#6782#7443#0#PHP" expanded="false" />
-            <element signature="e#7449#8280#0#PHP" expanded="false" />
-            <element signature="e#8286#8904#0#PHP" expanded="false" />
-            <element signature="e#8911#10476#0#PHP" expanded="false" />
-            <element signature="e#10482#11680#0#PHP" expanded="false" />
-            <element signature="e#11686#12550#0#PHP" expanded="false" />
-            <element signature="e#12556#13016#0#PHP" expanded="false" />
-            <element signature="e#13023#14726#0#PHP" expanded="false" />
-            <element signature="e#14732#15444#0#PHP" expanded="false" />
-            <element signature="e#15450#16182#0#PHP" expanded="false" />
-            <element signature="e#16189#17487#0#PHP" expanded="false" />
-            <element signature="e#17493#19309#0#PHP" expanded="false" />
-            <element signature="e#19315#20581#0#PHP" expanded="false" />
-            <element signature="e#20588#21759#0#PHP" expanded="false" />
-            <element signature="e#21765#23975#0#PHP" expanded="false" />
-            <element signature="e#23981#27761#0#PHP" expanded="false" />
-            <element signature="e#27767#28608#0#PHP" expanded="false" />
+            <element signature="e#257#398#0#PHP" expanded="false" />
+            <element signature="e#312#390#2#PHP" expanded="false" />
+            <element signature="e#404#1281#0#PHP" expanded="false" />
+            <element signature="e#1287#2616#0#PHP" expanded="false" />
+            <element signature="e#2622#4215#0#PHP" expanded="false" />
+            <element signature="e#4221#5768#0#PHP" expanded="false" />
+            <element signature="e#5774#6638#0#PHP" expanded="false" />
+            <element signature="e#6644#7316#0#PHP" expanded="false" />
+            <element signature="e#7322#8150#0#PHP" expanded="false" />
+            <element signature="e#8156#8771#0#PHP" expanded="false" />
+            <element signature="e#8778#10348#0#PHP" expanded="false" />
+            <element signature="e#10354#11552#0#PHP" expanded="false" />
+            <element signature="e#11558#12433#0#PHP" expanded="false" />
+            <element signature="e#14630#15353#0#PHP" expanded="false" />
+            <element signature="e#15359#16102#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/vendor/laravel/dusk/src/Chrome/SupportsChrome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1299">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/vendor/laravel/dusk/src/Chrome/ChromeProcess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1920">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/vendor/laravel/dusk/src/ElementResolver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1311">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/vendor/laravel/dusk/src/Page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-632">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/vendor/laravel/dusk/src/Component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-632">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/vendor/laravel/dusk/src/Dusk.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-632">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/vendor/laravel/dusk/src/Browser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9694">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/vendor/laravel/dusk/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/vendor/laravel/dusk/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/vendor/laravel/dusk/src/Console/DuskCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4795">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/vendor/facebook/webdriver/lib/Remote/Service/DriverService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3047">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11787">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/phpunit.dusk.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/vendor/facebook/webdriver/lib/Remote/DesiredCapabilities.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3806">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
