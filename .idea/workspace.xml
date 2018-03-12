@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b48ffa0-c28b-4d4f-9cf4-bb92ce2b404f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AvaDusk/tests/DuskTestCase.php" afterPath="$PROJECT_DIR$/AvaDusk/tests/DuskTestCase.php" />
+      <change beforePath="$PROJECT_DIR$/AvaDusk/tests/Browser/ExampleTest.php" afterPath="$PROJECT_DIR$/AvaDusk/tests/Browser/ExampleTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,12 +52,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DuskTestCase.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DuskTestCase.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AvaDusk/tests/DuskTestCase.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="127">
               <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coordenadorTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AvaDusk/tests/Browser/coordenadorTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="770" column="0" lean-forward="false" selection-start-line="770" selection-start-column="0" selection-end-line="770" selection-end-column="0" />
+              <folding>
+                <element signature="e#405#1244#0#PHP" expanded="false" />
+                <element signature="e#1250#2582#0#PHP" expanded="false" />
+                <element signature="e#2588#4184#0#PHP" expanded="false" />
+                <element signature="e#4190#5740#0#PHP" expanded="false" />
+                <element signature="e#5746#6613#0#PHP" expanded="false" />
+                <element signature="e#6619#7280#0#PHP" expanded="false" />
+                <element signature="e#7286#8117#0#PHP" expanded="false" />
+                <element signature="e#8123#8741#0#PHP" expanded="false" />
+                <element signature="e#8748#10313#0#PHP" expanded="false" />
+                <element signature="e#10319#11517#0#PHP" expanded="false" />
+                <element signature="e#11523#12387#0#PHP" expanded="false" />
+                <element signature="e#12393#12853#0#PHP" expanded="false" />
+                <element signature="e#12860#14563#0#PHP" expanded="false" />
+                <element signature="e#14569#15281#0#PHP" expanded="false" />
+                <element signature="e#15287#16019#0#PHP" expanded="false" />
+                <element signature="e#16026#17324#0#PHP" expanded="false" />
+                <element signature="e#17330#19146#0#PHP" expanded="false" />
+                <element signature="e#19152#20418#0#PHP" expanded="false" />
+                <element signature="e#20425#21596#0#PHP" expanded="false" />
+                <element signature="e#21602#23812#0#PHP" expanded="false" />
+                <element signature="e#23818#27598#0#PHP" expanded="false" />
+                <element signature="e#27604#28445#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,6 +132,8 @@
         <option value="$PROJECT_DIR$/AvaDusk/tests/Browser/professorTest.php" />
         <option value="$PROJECT_DIR$/AvaDusk/.env" />
         <option value="$PROJECT_DIR$/AvaDusk/tests/DuskTestCase.php" />
+        <option value="$PROJECT_DIR$/AvaDusk/tests/Browser/coordenadorTest.php" />
+        <option value="$PROJECT_DIR$/AvaDusk/tests/Browser/ExampleTest.php" />
       </list>
     </option>
   </component>
@@ -185,10 +219,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="2261" />
+    <option name="y" value="95" />
+    <option name="width" value="1377" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -221,25 +255,6 @@
               <item name="DuskTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="DuskTest" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AvaDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DuskTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DuskTest" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AvaDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Providers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DuskTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DuskTest" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AvaDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DuskTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DuskTest" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AvaDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -256,36 +271,6 @@
               <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Browser" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="screenshots" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DuskTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DuskTest" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AvaDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DuskTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DuskTest" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AvaDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DuskTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DuskTest" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AvaDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dusk" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DuskTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DuskTest" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AvaDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dusk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -359,7 +344,7 @@
       <workItem from="1520865116391" duration="1811000" />
       <workItem from="1520868118240" duration="17000" />
       <workItem from="1520868428842" duration="4936000" />
-      <workItem from="1520879366475" duration="2062000" />
+      <workItem from="1520879366475" duration="4007000" />
     </task>
     <servers />
   </component>
@@ -387,20 +372,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49711000" />
+    <option name="totallyTimeSpent" value="51656000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="100" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37068966" sideWeight="0.5104167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5584416" sideWeight="0.51098096" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37068966" sideWeight="0.48958334" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5584416" sideWeight="0.48901904" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978448" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -425,9 +410,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php" />
-    <entry file="file://$PROJECT_DIR$/autoteste/dusk/phpunit.dusk.xml" />
-    <entry file="file://$PROJECT_DIR$/autoteste/dusk/vendor/autoload.php" />
     <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php" />
     <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php" />
     <entry file="file://$PROJECT_DIR$/autoteste/dusk/app/User.php" />
@@ -595,11 +577,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AvaDusk/tests/Browser/screenshots/failure-testAVA614-0.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AvaDusk/tests/Browser/screenshots/failure-testAVA589-0.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -685,11 +662,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/tests/Browser/screenshots/failure-testAVA580-0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/tests/Browser/screenshots/failure-testAVA614-0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AvaDusk/tests/DuskTestCase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/tests/Browser/ExampleTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvaDusk/tests/Browser/coordenadorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="770" column="0" lean-forward="false" selection-start-line="770" selection-start-column="0" selection-end-line="770" selection-end-column="0" />
+          <folding>
+            <element signature="e#405#1244#0#PHP" expanded="false" />
+            <element signature="e#1250#2582#0#PHP" expanded="false" />
+            <element signature="e#2588#4184#0#PHP" expanded="false" />
+            <element signature="e#4190#5740#0#PHP" expanded="false" />
+            <element signature="e#5746#6613#0#PHP" expanded="false" />
+            <element signature="e#6619#7280#0#PHP" expanded="false" />
+            <element signature="e#7286#8117#0#PHP" expanded="false" />
+            <element signature="e#8123#8741#0#PHP" expanded="false" />
+            <element signature="e#8748#10313#0#PHP" expanded="false" />
+            <element signature="e#10319#11517#0#PHP" expanded="false" />
+            <element signature="e#11523#12387#0#PHP" expanded="false" />
+            <element signature="e#12393#12853#0#PHP" expanded="false" />
+            <element signature="e#12860#14563#0#PHP" expanded="false" />
+            <element signature="e#14569#15281#0#PHP" expanded="false" />
+            <element signature="e#15287#16019#0#PHP" expanded="false" />
+            <element signature="e#16026#17324#0#PHP" expanded="false" />
+            <element signature="e#17330#19146#0#PHP" expanded="false" />
+            <element signature="e#19152#20418#0#PHP" expanded="false" />
+            <element signature="e#20425#21596#0#PHP" expanded="false" />
+            <element signature="e#21602#23812#0#PHP" expanded="false" />
+            <element signature="e#23818#27598#0#PHP" expanded="false" />
+            <element signature="e#27604#28445#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
