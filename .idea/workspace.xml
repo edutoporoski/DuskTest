@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b48ffa0-c28b-4d4f-9cf4-bb92ce2b404f" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/TestAVA/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="professorTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1472">
+              <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
+              <folding>
+                <element signature="e#1449#2778#0#PHP" expanded="false" />
+                <element signature="e#2784#4377#0#PHP" expanded="false" />
+                <element signature="e#4383#5930#0#PHP" expanded="false" />
+                <element signature="e#5936#6800#0#PHP" expanded="false" />
+                <element signature="e#6806#7478#0#PHP" expanded="false" />
+                <element signature="e#7484#8312#0#PHP" expanded="false" />
+                <element signature="e#8318#8933#0#PHP" expanded="false" />
+                <element signature="e#8940#10510#0#PHP" expanded="false" />
+                <element signature="e#10516#11714#0#PHP" expanded="false" />
+                <element signature="e#11720#12595#0#PHP" expanded="false" />
+                <element signature="e#14792#15515#0#PHP" expanded="false" />
+                <element signature="e#15521#16264#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coordenadorTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="499" column="5" lean-forward="false" selection-start-line="499" selection-start-column="5" selection-end-line="499" selection-end-column="5" />
+              <folding>
+                <element signature="e#568#1407#0#PHP" expanded="false" />
+                <element signature="e#1413#2745#0#PHP" expanded="false" />
+                <element signature="e#2751#4347#0#PHP" expanded="false" />
+                <element signature="e#4353#5903#0#PHP" expanded="false" />
+                <element signature="e#5909#6776#0#PHP" expanded="false" />
+                <element signature="e#6782#7443#0#PHP" expanded="false" />
+                <element signature="e#7449#8280#0#PHP" expanded="false" />
+                <element signature="e#8286#8904#0#PHP" expanded="false" />
+                <element signature="e#8911#10476#0#PHP" expanded="false" />
+                <element signature="e#10482#11680#0#PHP" expanded="false" />
+                <element signature="e#11686#12550#0#PHP" expanded="false" />
+                <element signature="e#12556#13016#0#PHP" expanded="false" />
+                <element signature="e#13023#14726#0#PHP" expanded="false" />
+                <element signature="e#14732#15444#0#PHP" expanded="false" />
+                <element signature="e#15450#16182#0#PHP" expanded="false" />
+                <element signature="e#16189#17487#0#PHP" expanded="false" />
+                <element signature="e#17493#19309#0#PHP" expanded="false" />
+                <element signature="e#19315#20581#0#PHP" expanded="false" />
+                <element signature="e#20588#21759#0#PHP" expanded="false" />
+                <element signature="e#21765#23975#0#PHP" expanded="false" />
+                <element signature="e#23981#27761#0#PHP" expanded="false" />
+                <element signature="e#27767#28608#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoteste/dusk/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>profef1</find>
+      <find>raimundoem12</find>
+      <find>professoref2</find>
+      <find>PROFESSOR EF1</find>
+      <find>PROFESSOR EF2</find>
+      <find>PROF RAIMUNDO EM 1 E 2</find>
+      <find>girafales</find>
+      <find>professor girafales</find>
+      <find>614</find>
+      <find>514</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/autoteste/dusk/.env" />
+        <option value="$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php" />
+        <option value="$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.2">
+    <include_path>
+      <path value="$PROJECT_DIR$/TestAVA/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/composer" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/symfony/thanks" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/TestAVA/vendor/jakub-onderka/php-console-color" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="505" />
+    <option name="y" value="-16" />
+    <option name="width" value="996" />
+    <option name="height" value="700" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LaravelDusk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LaravelDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LaravelDusk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LaravelDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="autoteste" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LaravelDusk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LaravelDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="autoteste" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dusk" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LaravelDusk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LaravelDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="autoteste" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dusk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LaravelDusk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LaravelDusk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="autoteste" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dusk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Browser" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/autoteste/dusk/phpunit.dusk.xml" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Automation\SAE\Plataforma\LaravelDusk\autoteste\dusk\tests\Browser" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHPUnit.professorTest">
+    <configuration name="Browser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/autoteste/dusk/phpunit.dusk.xml" directory="$PROJECT_DIR$/autoteste/dusk/tests/Browser" use_alternative_configuration_file="true" />
+    </configuration>
+    <configuration name="professorTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Browser\professorTest" configuration_file="$PROJECT_DIR$/autoteste/dusk/phpunit.dusk.xml" file="$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php" scope="Class" use_alternative_configuration_file="true" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.Browser" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.professorTest" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.professorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b48ffa0-c28b-4d4f-9cf4-bb92ce2b404f" name="Default" comment="" />
+      <created>1520272011347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520272011347</updated>
+      <workItem from="1520272015078" duration="548000" />
+      <workItem from="1520342863343" duration="29901000" />
+      <workItem from="1520533406111" duration="7849000" />
+      <workItem from="1520857222809" duration="202000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Browser - 2018.03.06 at 10h 44m 37s.xml">
+      <configuration name="Browser" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Browser - 2018.03.06 at 10h 54m 55s.xml">
+      <configuration name="Browser" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="professorTest - 2018.03.06 at 10h 37m 41s.xml">
+      <configuration name="professorTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="professorTest - 2018.03.06 at 10h 38m 47s.xml">
+      <configuration name="professorTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="professorTest - 2018.03.06 at 10h 39m 42s.xml">
+      <configuration name="professorTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="professorTest - 2018.03.06 at 10h 55m 56s.xml">
+      <configuration name="professorTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="professorTest - 2018.03.06 at 10h 56m 57s.xml">
+      <configuration name="professorTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="38500000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37068966" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978448" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1472">
+          <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
+          <folding>
+            <element signature="e#1449#2778#0#PHP" expanded="false" />
+            <element signature="e#2784#4377#0#PHP" expanded="false" />
+            <element signature="e#4383#5930#0#PHP" expanded="false" />
+            <element signature="e#5936#6800#0#PHP" expanded="false" />
+            <element signature="e#6806#7478#0#PHP" expanded="false" />
+            <element signature="e#7484#8312#0#PHP" expanded="false" />
+            <element signature="e#8318#8933#0#PHP" expanded="false" />
+            <element signature="e#8940#10510#0#PHP" expanded="false" />
+            <element signature="e#10516#11714#0#PHP" expanded="false" />
+            <element signature="e#11720#12595#0#PHP" expanded="false" />
+            <element signature="e#14792#15515#0#PHP" expanded="false" />
+            <element signature="e#15521#16264#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="499" column="5" lean-forward="true" selection-start-line="499" selection-start-column="5" selection-end-line="499" selection-end-column="5" />
+          <folding>
+            <element signature="e#568#1407#0#PHP" expanded="false" />
+            <element signature="e#1413#2745#0#PHP" expanded="false" />
+            <element signature="e#2751#4347#0#PHP" expanded="false" />
+            <element signature="e#4353#5903#0#PHP" expanded="false" />
+            <element signature="e#5909#6776#0#PHP" expanded="false" />
+            <element signature="e#6782#7443#0#PHP" expanded="false" />
+            <element signature="e#7449#8280#0#PHP" expanded="false" />
+            <element signature="e#8286#8904#0#PHP" expanded="false" />
+            <element signature="e#8911#10476#0#PHP" expanded="false" />
+            <element signature="e#10482#11680#0#PHP" expanded="false" />
+            <element signature="e#11686#12550#0#PHP" expanded="false" />
+            <element signature="e#12556#13016#0#PHP" expanded="false" />
+            <element signature="e#13023#14726#0#PHP" expanded="false" />
+            <element signature="e#14732#15444#0#PHP" expanded="false" />
+            <element signature="e#15450#16182#0#PHP" expanded="false" />
+            <element signature="e#16189#17487#0#PHP" expanded="false" />
+            <element signature="e#17493#19309#0#PHP" expanded="false" />
+            <element signature="e#19315#20581#0#PHP" expanded="false" />
+            <element signature="e#20588#21759#0#PHP" expanded="false" />
+            <element signature="e#21765#23975#0#PHP" expanded="false" />
+            <element signature="e#23981#27761#0#PHP" expanded="false" />
+            <element signature="e#27767#28608#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="444" column="0" lean-forward="false" selection-start-line="444" selection-start-column="0" selection-end-line="444" selection-end-column="0" />
+          <folding>
+            <element signature="e#1449#2778#0#PHP" expanded="false" />
+            <element signature="e#2784#4377#0#PHP" expanded="false" />
+            <element signature="e#4383#5930#0#PHP" expanded="false" />
+            <element signature="e#5936#6800#0#PHP" expanded="false" />
+            <element signature="e#6806#7478#0#PHP" expanded="false" />
+            <element signature="e#7484#8312#0#PHP" expanded="false" />
+            <element signature="e#8318#8933#0#PHP" expanded="false" />
+            <element signature="e#8940#10510#0#PHP" expanded="false" />
+            <element signature="e#10516#11714#0#PHP" expanded="false" />
+            <element signature="e#11720#12595#0#PHP" expanded="false" />
+            <element signature="e#14792#15515#0#PHP" expanded="false" />
+            <element signature="e#15521#16264#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17503">
+          <caret line="761" column="19" lean-forward="true" selection-start-line="761" selection-start-column="19" selection-end-line="761" selection-end-column="19" />
+          <folding>
+            <element signature="e#568#1407#0#PHP" expanded="false" />
+            <element signature="e#1413#2745#0#PHP" expanded="false" />
+            <element signature="e#2751#4347#0#PHP" expanded="false" />
+            <element signature="e#4353#5903#0#PHP" expanded="false" />
+            <element signature="e#5909#6776#0#PHP" expanded="false" />
+            <element signature="e#6782#7443#0#PHP" expanded="false" />
+            <element signature="e#7449#8280#0#PHP" expanded="false" />
+            <element signature="e#8286#8904#0#PHP" expanded="false" />
+            <element signature="e#8911#10476#0#PHP" expanded="false" />
+            <element signature="e#10482#11680#0#PHP" expanded="false" />
+            <element signature="e#11686#12550#0#PHP" expanded="false" />
+            <element signature="e#12556#13016#0#PHP" expanded="false" />
+            <element signature="e#13023#14726#0#PHP" expanded="false" />
+            <element signature="e#14732#15444#0#PHP" expanded="false" />
+            <element signature="e#15450#16182#0#PHP" expanded="false" />
+            <element signature="e#16189#17487#0#PHP" expanded="false" />
+            <element signature="e#17493#19309#0#PHP" expanded="false" />
+            <element signature="e#19315#20581#0#PHP" expanded="false" />
+            <element signature="e#20588#21759#0#PHP" expanded="false" />
+            <element signature="e#21765#23975#0#PHP" expanded="false" />
+            <element signature="e#23981#27761#0#PHP" expanded="false" />
+            <element signature="e#27767#28608#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1449#2778#0#PHP" expanded="false" />
+            <element signature="e#2784#4377#0#PHP" expanded="false" />
+            <element signature="e#4383#5930#0#PHP" expanded="false" />
+            <element signature="e#5936#6800#0#PHP" expanded="false" />
+            <element signature="e#6806#7478#0#PHP" expanded="false" />
+            <element signature="e#7484#8312#0#PHP" expanded="false" />
+            <element signature="e#8318#8933#0#PHP" expanded="false" />
+            <element signature="e#8940#10510#0#PHP" expanded="false" />
+            <element signature="e#10516#11714#0#PHP" expanded="false" />
+            <element signature="e#11720#12595#0#PHP" expanded="false" />
+            <element signature="e#14792#15515#0#PHP" expanded="false" />
+            <element signature="e#15521#16264#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/phpunit.dusk.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/professorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1472">
+          <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
+          <folding>
+            <element signature="e#1449#2778#0#PHP" expanded="false" />
+            <element signature="e#2784#4377#0#PHP" expanded="false" />
+            <element signature="e#4383#5930#0#PHP" expanded="false" />
+            <element signature="e#5936#6800#0#PHP" expanded="false" />
+            <element signature="e#6806#7478#0#PHP" expanded="false" />
+            <element signature="e#7484#8312#0#PHP" expanded="false" />
+            <element signature="e#8318#8933#0#PHP" expanded="false" />
+            <element signature="e#8940#10510#0#PHP" expanded="false" />
+            <element signature="e#10516#11714#0#PHP" expanded="false" />
+            <element signature="e#11720#12595#0#PHP" expanded="false" />
+            <element signature="e#14792#15515#0#PHP" expanded="false" />
+            <element signature="e#15521#16264#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoteste/dusk/tests/Browser/coordenadorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="499" column="5" lean-forward="false" selection-start-line="499" selection-start-column="5" selection-end-line="499" selection-end-column="5" />
+          <folding>
+            <element signature="e#568#1407#0#PHP" expanded="false" />
+            <element signature="e#1413#2745#0#PHP" expanded="false" />
+            <element signature="e#2751#4347#0#PHP" expanded="false" />
+            <element signature="e#4353#5903#0#PHP" expanded="false" />
+            <element signature="e#5909#6776#0#PHP" expanded="false" />
+            <element signature="e#6782#7443#0#PHP" expanded="false" />
+            <element signature="e#7449#8280#0#PHP" expanded="false" />
+            <element signature="e#8286#8904#0#PHP" expanded="false" />
+            <element signature="e#8911#10476#0#PHP" expanded="false" />
+            <element signature="e#10482#11680#0#PHP" expanded="false" />
+            <element signature="e#11686#12550#0#PHP" expanded="false" />
+            <element signature="e#12556#13016#0#PHP" expanded="false" />
+            <element signature="e#13023#14726#0#PHP" expanded="false" />
+            <element signature="e#14732#15444#0#PHP" expanded="false" />
+            <element signature="e#15450#16182#0#PHP" expanded="false" />
+            <element signature="e#16189#17487#0#PHP" expanded="false" />
+            <element signature="e#17493#19309#0#PHP" expanded="false" />
+            <element signature="e#19315#20581#0#PHP" expanded="false" />
+            <element signature="e#20588#21759#0#PHP" expanded="false" />
+            <element signature="e#21765#23975#0#PHP" expanded="false" />
+            <element signature="e#23981#27761#0#PHP" expanded="false" />
+            <element signature="e#27767#28608#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
