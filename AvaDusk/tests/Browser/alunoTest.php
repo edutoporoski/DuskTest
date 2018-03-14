@@ -146,7 +146,10 @@ class alunoTest extends DuskTestCase
                 ->value('#usuario', 'alunoprime_xpto')
                 ->value('#senha', '123')
                 ->click('#btnEntrar')
-                ->assertDontSee('SAE: Arrase no Enem')
+                ->whenAvailable('.boxMeusCursos.sombra.borda8.boxDisciplinas', function($ListaDisciplinas){
+                    $ListaDisciplinas->assertDontSee('SAE: Arrase no Enem');
+                })
+
                 ->visit('/sair');
 
             $browser->visit('/')
@@ -154,7 +157,9 @@ class alunoTest extends DuskTestCase
                 ->value('#usuario', 'alunoprimario')
                 ->value('#senha', '123')
                 ->click('#btnEntrar')
-                ->assertDontSee('SAE: Arrase no Enem')
+                ->whenAvailable('.boxMeusCursos.sombra.borda8.boxDisciplinas', function($ListaDisciplinas){
+                    $ListaDisciplinas->assertDontSee('SAE: Arrase no Enem');
+                })
                 ->visit('/sair');
 
             $browser->visit('/')
@@ -162,7 +167,9 @@ class alunoTest extends DuskTestCase
                 ->value('#usuario', 'alunoprime3ano')
                 ->value('#senha', '123')
                 ->click('#btnEntrar')
-                ->assertDontSee('SAE: Arrase no Enem')
+                ->whenAvailable('.boxMeusCursos.sombra.borda8.boxDisciplinas', function($ListaDisciplinas){
+                    $ListaDisciplinas->assertDontSee('SAE: Arrase no Enem');
+                })
                 ->visit('/sair');
 
             $browser->visit('/')
@@ -170,7 +177,9 @@ class alunoTest extends DuskTestCase
                 ->value('#usuario', 'toporoski_d9h8')
                 ->value('#senha', '123')
                 ->click('#btnEntrar')
-                ->assertDontSee('SAE: Arrase no Enem')
+                ->whenAvailable('.boxMeusCursos.sombra.borda8.boxDisciplinas', function($ListaDisciplinas){
+                    $ListaDisciplinas->assertDontSee('SAE: Arrase no Enem');
+                })
                 ->visit('/sair');
 
             $browser->visit('/')
@@ -178,7 +187,9 @@ class alunoTest extends DuskTestCase
                 ->value('#usuario', 'aluno5anof2')
                 ->value('#senha', '123')
                 ->click('#btnEntrar')
-                ->assertDontSee('SAE: Arrase no Enem')
+                ->whenAvailable('.boxMeusCursos.sombra.borda8.boxDisciplinas', function($ListaDisciplinas){
+                    $ListaDisciplinas->assertDontSee('SAE: Arrase no Enem');
+                })
                 ->visit('/sair');
 
             $browser->visit('/')
@@ -186,7 +197,9 @@ class alunoTest extends DuskTestCase
                 ->value('#usuario', 'alunolliinha002')
                 ->value('#senha', '123')
                 ->click('#btnEntrar')
-                ->assertDontSee('SAE: Arrase no Enem')
+                ->whenAvailable('.boxMeusCursos.sombra.borda8.boxDisciplinas', function($ListaDisciplinas){
+                    $ListaDisciplinas->assertDontSee('SAE: Arrase no Enem');
+                })
                 ->visit('/sair');
 
             $browser->visit('/')
@@ -194,7 +207,9 @@ class alunoTest extends DuskTestCase
                 ->value('#usuario', 'silva_nnsd')
                 ->value('#senha', '123')
                 ->click('#btnEntrar')
-                ->assertDontSee('SAE: Arrase no Enem')
+                ->whenAvailable('.boxMeusCursos.sombra.borda8.boxDisciplinas', function($ListaDisciplinas){
+                    $ListaDisciplinas->assertDontSee('SAE: Arrase no Enem');
+                })
                 ->visit('/sair');
 
             $browser->visit('/')
@@ -202,7 +217,9 @@ class alunoTest extends DuskTestCase
                 ->value('#usuario', 'pedroneffi')
                 ->value('#senha', '123')
                 ->click('#btnEntrar')
-                ->assertDontSee('SAE: Arrase no Enem')
+                ->whenAvailable('.boxMeusCursos.sombra.borda8.boxDisciplinas', function($ListaDisciplinas){
+                    $ListaDisciplinas->assertDontSee('SAE: Arrase no Enem');
+                })
                 ->visit('/sair');
         });
     }
@@ -270,7 +287,7 @@ class alunoTest extends DuskTestCase
                 ->value('#usuario', 'topoem2')
                 ->value('#senha', '123')
                 ->click('#btnEntrar')
-                ->whenAvailable('#25142', function ($Disciplina) {
+                ->whenAvailable('#25143', function ($Disciplina) {
                     $Disciplina->assertSourceHas('class="curso borda6 TarefaAberta"');
                 });
 

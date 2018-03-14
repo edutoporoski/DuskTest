@@ -255,14 +255,14 @@ class professorTest extends DuskTestCase
                     $nomeUser->assertSee('PROFESSOR EF1');
                 })
                 ->visit('/livrodigital/dispositivos')
-                #->assertSee('Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz')
-                ->assertSee('Motorola XT1068');
+                ->assertSee('Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz')
+                #->assertSee('Motorola XT1068')
+                ;
 
 
         });
 
     }
-
 
     public function testAVA543()
     {
@@ -372,7 +372,6 @@ class professorTest extends DuskTestCase
         });
 
     }
-
 
     public function testAVA614()
     {
@@ -586,7 +585,6 @@ class professorTest extends DuskTestCase
         });
 
     }
-
 
     public function testAVA580()
     {

@@ -253,8 +253,9 @@ class coordenadorTest extends DuskTestCase
                     $nomeUser->assertSee('COORDENADOR F1');
                 })
                 ->visit('/livrodigital/dispositivos')
-                #->assertSee('Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz')
-                ->assertSee('Motorola XT1068');
+                ->assertSee('Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz')
+                #->assertSee('Motorola XT1068')
+            ;
 
 
         });
@@ -757,7 +758,7 @@ class coordenadorTest extends DuskTestCase
                 });
 
             $browser->select('#inputTurma', 'd432c3a8cb6e90996bfb0201ad6d3e76')
-                ->click('.btn.btn-primary')
+                ->clickLink('SAE - Filosofia: 6º ano')
                 ->assertSee('SAE - Filosofia: 6º ano: 1º Bimestre')
                 ->assertSee('SAE - Filosofia: 6º ano: 2º Bimestre')
                 ->assertSee('SAE - Filosofia: 6º ano: 3º Bimestre')
