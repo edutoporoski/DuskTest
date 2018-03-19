@@ -75,4 +75,9 @@
       <path value="$PROJECT_DIR$/TestAVA/vendor/jakub-onderka/php-console-color" />
     </include_path>
   </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/AvaDusk/vendor/autoload.php" phpunit_phar_path="$PROJECT_DIR$/phpunit.phar" />
+    </phpunit_settings>
+  </component>
 </project>
