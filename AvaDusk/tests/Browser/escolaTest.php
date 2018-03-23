@@ -128,7 +128,10 @@ class escolaTest extends DuskTestCase
                 ->whenAvailable('#listaAlunose807d0436c275e784449b676f7d8787f', function ($ListaAlunos){
                     $ListaAlunos->click('.slider.round');
                 })
-                ->assertSee('Acesso ao livro digital para Aline silva bloqueado')
+                ->whenAvailable('#swal2-content', function($modal){
+                    $modal->assertSee('Acesso ao livro digital para Aline silva bloqueado');
+                })
+
                 ->click('.swal2-confirm.swal2-styled')
                 ->visit('/sair')
                 ;
@@ -171,7 +174,10 @@ class escolaTest extends DuskTestCase
                 ->whenAvailable('#listaAlunose807d0436c275e784449b676f7d8787f', function ($ListaAlunos){
                     $ListaAlunos->click('.slider.round');
                 })
-                ->assertSee('Acesso ao livro digital para Aline silva liberado')
+                ->whenAvailable('#swal2-content', function($modal){
+                    $modal->assertSee('Acesso ao livro digital para Aline silva liberado');
+                })
+
                 ->click('.swal2-confirm.swal2-styled');
         });
     }
@@ -227,7 +233,10 @@ class escolaTest extends DuskTestCase
                 ->whenAvailable(".painel-livro.card.card-2", function ($Painel){
                     $Painel->click('.slider.round');
                 })
-                ->assertSee('O livro digital foi desativado.')
+                ->whenAvailable('#swal2-content', function($modal){
+                    $modal->assertSee('O livro digital foi desativado.');
+                })
+
                 ->click('.swal2-confirm.swal2-styled')
                 ->whenAvailable(".painel-livro.card.card-2", function ($Painel){
                     $Painel->click('.slider.round');
