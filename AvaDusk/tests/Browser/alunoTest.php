@@ -335,10 +335,10 @@ class alunoTest extends DuskTestCase
         $this->browse(function (Browser $browser) {
             $browser->visit('/')
                 ->maximize()
-                ->value('#usuario', 'aluno5anof2')
+                ->value('#usuario', 'pedroneffi')
                 ->value('#senha', '123')
                 ->click('#btnEntrar')
-                ->whenAvailable('#28713', function ($Disciplina) {
+                ->whenAvailable('#25103', function ($Disciplina) {
                     $Disciplina->assertSourceHas('class="curso borda6 TarefaVencida"');
                 });
 
