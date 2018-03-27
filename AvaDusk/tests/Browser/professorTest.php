@@ -101,6 +101,7 @@ class professorTest extends DuskTestCase
 
             $browser->select('#inputTurma', '0f289f5fa00367ecc3d35b38750528a9')
                 ->clickLink('SAE - Língua Portuguesa: 5º ano')
+
                 ->whenAvailable('#accordion2.accordion', function ($Assuntos) {
                     $Assuntos->click('.accordion-group .agendamento a.glyphicon.glyphicon-user');
                 })
