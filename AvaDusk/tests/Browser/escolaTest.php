@@ -14,6 +14,17 @@ class escolaTest extends DuskTestCase
      * @return void
      */
 
+    function GUID()
+    {
+        if (function_exists('com_create_guid') === true)
+        {
+            return trim(com_create_guid(), '{}');
+        }
+
+        return sprintf('%04x%04x', mt_rand(0, 65535), mt_rand(0, 65535));
+    }
+
+
     public function tearDown()
     {
         $this->browse(function (Browser $browser) {
@@ -21,7 +32,184 @@ class escolaTest extends DuskTestCase
 
         });
     }
+
+    public function testValidarListarFiltroDiretorAVA729()
+    {
+        $this->browse(function (Browser $browser){
+            $browser->visit('/')
+                ->maximize()
+                ->value('#usuario', 'toporoski')
+                ->value('#senha', 'escola')
+                ->click('#btnEntrar')
+                ->whenAvailable('#dLabel', function ($nomeUser) {
+                    $nomeUser->assertSee('ESCOLA TOPOROSKI');
+                })
+            ;
+
+        });
+        $this->browse(function (Browser $browser){
+            $browser->visit('cadastro/listarDiretor')
+                ->whenAvailable('#table_lista_wrapper',function($modal){
+                    $modal->assertSee('Pesquisar')
+                        ->assertSee('Mostrando de 1')
+                        ->value('#table_lista_filter label input', 'eduardo')
+
+                    ;
+                })
+                ->keys('#table_lista_filter label input', ['{Enter}'])
+                ->pause(5000)
+                ->assertSee('1 registros')
+            ;
+        });
+    }
 /*
+    public function testValidarListarDiretorAVA728()
+    {
+        $this->browse(function (Browser $browser){
+            $browser->visit('/')
+                ->maximize()
+                ->value('#usuario', 'toporoski')
+                ->value('#senha', 'escola')
+                ->click('#btnEntrar')
+                ->whenAvailable('#dLabel', function ($nomeUser) {
+                    $nomeUser->assertSee('ESCOLA TOPOROSKI');
+                })
+            ;
+
+        });
+        $this->browse(function (Browser $browser){
+            $browser->visit('cadastro/listarDiretor')
+                ->whenAvailable('#table_lista_wrapper',function($modal){
+                    $modal->assertSee('Pesquisar')
+                        ->assertSee('Mostrando de 1');
+                })
+
+            ;
+        });
+    }
+
+    public function testValidarCadastrarDiretorAVA725()
+    {
+        $this->browse(function (Browser $browser){
+            $browser->visit('/')
+                ->maximize()
+                ->value('#usuario', 'toporoski')
+                ->value('#senha', 'escola')
+                ->click('#btnEntrar')
+                ->whenAvailable('#dLabel', function ($nomeUser) {
+                    $nomeUser->assertSee('ESCOLA TOPOROSKI');
+                })
+            ;
+
+        });
+        $this->browse(function (Browser $browser){
+            $browser->visit('cadastro/listarDiretor')
+                ->clickLink('Novo Diretor')
+                #->value('#inputNome',$this->GUID())
+                #->value('#inputLogin',$this->GUID())
+                #->value('#inputSenha','123')
+                #->value('#inputEmail',$this->GUID().'@saedigital.com.br')
+                ->click('#salvarDiretor')
+                ->whenAvailable('.messi',function($modal){
+                    $modal->assertSee('Todos os campos obrigatórios devem ser preenchidos!')
+                        ->click('.btn');
+                })
+
+            ;
+        });
+    }
+
+    public function testValidarCadastrarDiretorAVA720()
+    {
+
+
+        $this->browse(function (Browser $browser){
+            $browser->visit('/')
+                ->maximize()
+                ->value('#usuario', 'toporoski')
+                ->value('#senha', 'escola')
+                ->click('#btnEntrar')
+                ->whenAvailable('#dLabel', function ($nomeUser) {
+                    $nomeUser->assertSee('ESCOLA TOPOROSKI');
+                })
+            ;
+
+        });
+        $this->browse(function (Browser $browser){
+            $browser->visit('cadastro/listarDiretor')
+                ->clickLink('Novo Diretor')
+                ->value('#inputNome',$this->GUID())
+                ->value('#inputLogin',$this->GUID())
+                ->value('#inputSenha','123')
+                ->value('#inputEmail',$this->GUID().'@saedigital.com.br')
+                ->click('#salvarDiretor')
+                ->whenAvailable('.messi',function($modal){
+                    $modal->assertSee('Dados salvos com sucesso!')
+                        ->click('.btn');
+                })
+
+            ;
+        });
+    }
+
+    public function testValidarCadastrarDiretorAVA719()
+    {
+
+
+        $this->browse(function (Browser $browser){
+            $browser->visit('/')
+                ->maximize()
+                ->value('#usuario', 'toporoski')
+                ->value('#senha', 'escola')
+                ->click('#btnEntrar')
+                ->whenAvailable('#dLabel', function ($nomeUser) {
+                    $nomeUser->assertSee('ESCOLA TOPOROSKI');
+                })
+            ;
+
+        });
+        $this->browse(function (Browser $browser){
+            $browser->visit('cadastro/listarDiretor')
+                ->clickLink('Novo Diretor')
+                #->value('#inputNome',$this->GUID())
+                ->value('#inputLogin',$this->GUID())
+                ->value('#inputSenha','123')
+                ->click('#salvarDiretor')
+                ->whenAvailable('.messi',function($modal){
+                    $modal->assertSee('Dados salvos com sucesso!')
+                        ->click('.btn');
+                })
+
+            ;
+        });
+    }
+
+    public function testValidarBuscarTurmasAVA721()
+    {
+        $this->browse(function (Browser $browser){
+            $browser->visit('/')
+                    ->maximize()
+                    ->value('#usuario', 'toporoski')
+                    ->value('#senha', 'escola')
+                    ->click('#btnEntrar')
+                    ->whenAvailable('#dLabel', function ($nomeUser) {
+                        $nomeUser->assertSee('ESCOLA TOPOROSKI');
+                    })
+            ;
+
+    });
+        $this->browse(function (Browser $browser){
+            $browser->visit('cadastro/listarTurma')
+                ->clickLink('Buscar Turma')
+                ->whenAvailable('#table_lista_wrapper', function($lista){
+                    $lista->assertVisible('#table_lista');
+                })
+                ->assertVisible('#table_lista_wrapper')
+            ;
+    });
+    }
+
+
     public function testValidarAcessoLivroDigitalAVA717()
     {
         $this->browse(function (Browser $browser) {
@@ -37,7 +225,7 @@ class escolaTest extends DuskTestCase
         });
 
         $this->browse(function (Browser $browser) {
-            $browser->visit('/cadastro/ativarLivroDigitalIndex');
+            $browser->visit('/cadastro/ativarLivroDigitalIndex')
 
                 ->whenAvailable(".card.card-2", function ($PainelTurmas){
                     $PainelTurmas->click('#key-3')
@@ -103,7 +291,9 @@ class escolaTest extends DuskTestCase
                 ->click('.swal2-confirm.swal2-styled');
         });
     }
-*/
+
+
+
     public function testValidarAcessoLivroDigitalAVA716()
     {
         $this->browse(function (Browser $browser) {
@@ -243,5 +433,5 @@ class escolaTest extends DuskTestCase
                 });
         });
     }
-
+*/
 }
