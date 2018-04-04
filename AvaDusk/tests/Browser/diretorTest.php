@@ -12,6 +12,8 @@ class diretorTest extends DuskTestCase
      * A Dusk test example.
      *
      * @return void
+     *
+     * @throws RuntimeException
      */
     function GUID()
     {
