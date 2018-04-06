@@ -573,7 +573,8 @@ class escolaTest extends DuskTestCase
                     $ListaAlunos->click('.slider.round');
                 })
                 ->whenAvailable('#swal2-content', function($modal){
-                    $modal->assertSee('Acesso ao livro digital para Aline silva liberado');
+                    $modal->pause(5000)
+                        ->assertSee('Acesso ao livro digital para Aline silva liberado');
                 })
 
                 ->click('.swal2-confirm.swal2-styled');

@@ -13,7 +13,7 @@ class diretorTest extends DuskTestCase
      *
      * @return void
      *
-     * @throws RuntimeException
+     * @throws void
      */
     function GUID()
     {
@@ -295,7 +295,8 @@ class diretorTest extends DuskTestCase
                     $ListaAlunos->click('.slider.round');
                 })
                 ->whenAvailable('#swal2-content', function($modal){
-                    $modal->assertSee('Acesso ao livro digital para Aline silva bloqueado');
+                    $modal->pause(5000)
+                        ->assertSee('Acesso ao livro digital para Aline silva bloqueado');
                 })
 
                 ->click('.swal2-confirm.swal2-styled')
@@ -400,7 +401,8 @@ class diretorTest extends DuskTestCase
                     $Painel->click('.slider.round');
                 })
                 ->whenAvailable('#swal2-content', function($modal){
-                    $modal->assertSee('O livro digital foi desativado.');
+                    $modal->pause(2000)
+                        ->assertSee('O livro digital foi desativado.');
                 })
 
                 ->click('.swal2-confirm.swal2-styled')
