@@ -128,7 +128,7 @@ class alunoTest extends DuskTestCase
             $browser->visit('/')
                 ->maximize()
                 ->value('#usuario', 'pedroneffi')
-                ->value('#senha', '12345')
+                ->value('#senha', '123')
                 ->click('#btnEntrar')
                 ->whenAvailable('#30791', function ($Disciplina){
                     $Disciplina->assertSeeLink('Áudios - Língua Estrangeira');
@@ -215,7 +215,7 @@ class alunoTest extends DuskTestCase
             $browser->visit('/')
                 ->maximize()
                 ->value('#usuario', 'pedroneffi')
-                ->value('#senha', '12345')
+                ->value('#senha', '123')
                 ->click('#btnEntrar')
                 ->whenAvailable('.boxMeusCursos.sombra.borda8.boxDisciplinas', function($ListaDisciplinas){
                     $ListaDisciplinas->assertDontSee('SAE: Arrase no Enem');
@@ -302,7 +302,7 @@ class alunoTest extends DuskTestCase
             $browser->visit('/')
                 ->maximize()
                 ->value('#usuario', 'pedroneffi')
-                ->value('#senha', '12345')
+                ->value('#senha', '123')
                 ->click('#btnEntrar')
                 ->whenAvailable('#25106', function ($Disciplina) {
                     $Disciplina->assertSourceHas('class="curso borda6 TarefaAberta"');
@@ -336,7 +336,7 @@ class alunoTest extends DuskTestCase
             $browser->visit('/')
                 ->maximize()
                 ->value('#usuario', 'pedroneffi')
-                ->value('#senha', '12345')
+                ->value('#senha', '123')
                 ->click('#btnEntrar')
                 ->whenAvailable('#25103', function ($Disciplina) {
                     $Disciplina->assertSourceHas('class="curso borda6 TarefaVencida"');

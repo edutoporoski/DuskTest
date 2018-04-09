@@ -281,15 +281,15 @@ class coordenadorTest extends DuskTestCase
 
             $browser->visit('/preparatorio/fi-videoaulas-material-impresso-1-ordm-ano')
                 ->pause(3000)
-                ->assertSee('1. FI - Video Aulas / Material Apoio - 1º ano: Geografia')
-                ->assertSee('2. FI - Video Aulas / Material Apoio - 1º ano: Língua Portuguesa')
-                ->assertSee('3. FI - Video Aulas / Material Apoio - 1º ano: História')
-                ->assertSee('4. FI - Video Aulas / Material Apoio - 1º ano: Espanhol')
-                ->assertSee('5. FI - Video Aulas / Material Apoio - 1º ano: Artes')
-                ->assertSee('6. FI - Video Aulas / Material Apoio - 1º ano: Ciências')
-                ->assertSee('7. FI - Video Aulas / Material Apoio - 1º ano: Matemática')
-                ->assertSee('8. FI - Video Aulas / Material Apoio - 1º ano: Inglês')
-                ->clickLink('1. FI - Video Aulas / Material Apoio - 1º ano: Geografia')
+                ->assertSee('1. FI - Vídeo Aulas / Material Apoio - 1º ano: Geografia')
+                ->assertSee('2. FI - Vídeo Aulas / Material Apoio - 1º ano: Língua Portuguesa')
+                ->assertSee('3. FI - Vídeo Aulas / Material Apoio - 1º ano: História')
+                ->assertSee('4. FI - Vídeo Aulas / Material Apoio - 1º ano: Espanhol')
+                ->assertSee('5. FI - Vídeo Aulas / Material Apoio - 1º ano: Artes')
+                ->assertSee('6. FI - Vídeo Aulas / Material Apoio - 1º ano: Ciências')
+                ->assertSee('7. FI - Vídeo Aulas / Material Apoio - 1º ano: Matemática')
+                ->assertSee('8. FI - Vídeo Aulas / Material Apoio - 1º ano: Inglês')
+                ->clickLink('1. FI - Vídeo Aulas / Material Apoio - 1º ano: Geografia')
                 ->whenAvailable('.aula', function ($aula) {
                     $aula->clickLink('O mundo em que vivemos')
                         ->pause(2000);
@@ -642,31 +642,31 @@ class coordenadorTest extends DuskTestCase
 
             $browser->select('#inputTurma', 'db5657a790210cd0e7cde37167ae7a05')
                 ->assertSee('SAE - Plataforma Literária - Ensino Fundamental I: 1º ano')
-                ->assertSee('FI - Video Aulas / Material Apoio: 1º ano')
+                ->assertSee('FI - Vídeo Aulas / Material Apoio: 1º ano')
                 ->assertSee('Áudios - Língua Estrangeira');
 
             $browser->select('#inputTurma', '073a32ae9b9ba5a8cf534a4461333cdb')
                 ->assertSee('SAE - Plataforma Literária - Ensino Fundamental I: 2º ano')
-                ->assertSee('FI - Video Aulas / Material Apoio: 2º ano')
+                ->assertSee('FI - Vídeo Aulas / Material Apoio: 2º ano')
                 ->assertSee('Áudios - Língua Estrangeira');
 
             $browser->select('#inputTurma', '6c1af62ecf1b17f115b45ec9c92e7fa1')
                 ->assertSee('SAE - Plataforma Literária - Ensino Fundamental I: 3º ano')
-                ->assertSee('FI - Video Aulas / Material Apoio: 3º ano')
+                ->assertSee('FI - Vídeo Aulas / Material Apoio: 3º ano')
                 ->assertSee('Áudios - Língua Estrangeira');
 
             $browser->select('#inputTurma', 'e807d0436c275e784449b676f7d8787f')
                 ->assertSee('SAE - Matemática: 4º ano')
                 ->assertSee('SAE - Língua Portuguesa: 4º ano')
                 ->assertSee('SAE - Plataforma Literária - Ensino Fundamental I: 4º ano')
-                ->assertSee('FI - Video Aulas / Material Apoio: 4º ano')
+                ->assertSee('FI - Vídeo Aulas / Material Apoio: 4º ano')
                 ->assertSee('Áudios - Língua Estrangeira');
 
             $browser->select('#inputTurma', '0f289f5fa00367ecc3d35b38750528a9')
                 ->assertSee('SAE - Língua Portuguesa: 5º ano')
                 ->assertSee('SAE - Matemática: 5º ano')
                 ->assertSee('SAE - Plataforma Literária - Ensino Fundamental I: 5º ano')
-                ->assertSee('FI - Video Aulas / Material Apoio: 5º ano')
+                ->assertSee('FI - Vídeo Aulas / Material Apoio: 5º ano')
                 ->assertSee('Áudios - Língua Estrangeira');
 
 
