@@ -51,6 +51,200 @@ class alunoTest extends DuskTestCase
         });
     }
 
+    public function testRelatorioDiario_AVA414()
+    {
+
+        $this->browse(function (Browser $browser) {
+            $browser->visit('/')
+                ->maximize()
+                ->value('#usuario', 'pedroneffi')
+                ->value('#senha', '123')
+                ->click('#btnEntrar')
+                ->pause(2000)
+            ;
+            $browser->visit('/relatorios')
+                ->clickLink('Relatório - Diário')
+                ->assertSee('Relatório Diário')
+                ->value('.form-control','01-01-2018')
+//                ->value('.form-control','31-12-2018')
+//                ->click('.btn.btn-primary')
+                ->keys('.form-control', ['{Tab}'],'31-12-2018')
+                ->click('.btn.btn-primary')
+                ->assertSee('Exportar CSV')
+                ->assertSee('Exportar Excel')
+                ->assertSee('Exportar Pdf')
+                ->assertSee('16/01/2018 - Terça-Feira')
+                ->assertSee('SAE - Língua Portuguesa - 9º ano: 1º Bimestre')
+                ->assertSee('Gosto se discute?')
+                ->assertSee('O fim da guerra e suas marcas para o mundo')
+            ;
+
+
+
+        });
+    }
+
+    public function testRelatorioGeral_AVA421()
+    {
+
+        $this->browse(function (Browser $browser) {
+            $browser->visit('/')
+                ->maximize()
+                ->value('#usuario', 'pedroneffi')
+                ->value('#senha', '123')
+                ->click('#btnEntrar')
+                ->pause(2000)
+            ;
+            $browser->visit('/relatorios')
+                ->clickLink('Relatório - Geral')
+                ->assertSee('Coeficiente Acadêmico*')
+                ->assertSee('Relatório Desempenho Geral')
+                ->assertSee('SAE - Química: 9º ano')
+                ->assertSee('SAE - Arte: 9º ano')
+                ->assertSee('SAE - Geografia: 9º ano')
+                ->assertSee('SAE - Língua Portuguesa: 9º ano')
+                ;
+
+
+
+        });
+    }
+
+    public function testVideoAula_AVA379()
+    {
+
+        $this->browse(function (Browser $browser) {
+            $browser->visit('/')
+                ->maximize()
+                ->value('#usuario', 'alunoprimario')
+                ->value('#senha', '123')
+                ->click('#btnEntrar')
+                ->pause(2000)
+               ;
+            $this->browse(function(Browser $browser){
+                $browser->clickLink('FI - Vídeo Aulas / Material Apoio: 2º ano')
+                    ->pause(1000)
+                    ->clickLink('1. FI - Vídeo Aulas / Material Apoio - 2º ano: Artes')
+                    ->pause(1000)
+                    ->clickLink('A arte pré-histórica')
+                    ->pause(1000)
+                    ->click('.vjs-big-play-button')
+                    ->whenAvailable('#video_sae_html5_api', function($video){
+                        $video->assertMissing('.vjs-big-play-button')
+                        ;
+                    })
+
+                ;
+            });
+
+        });
+    }
+
+    public function testGabaritoAssuntoNaoExpirado_AVA386()
+    {
+
+        $this->browse(function (Browser $browser) {
+            $browser->visit('/')
+                ->maximize()
+                ->value('#usuario', 'pedroneffi')
+                ->value('#senha', '123')
+                ->click('#btnEntrar');
+
+            $this->browse(function(Browser $browser){
+                $browser->clickLink('SAE - Língua Inglesa: 9º ano')
+                    ->clickLink('4. Chinese New Year ')
+                    ->pause(1000)
+                    ->clickLink('Questão')
+                    ->assertMissing('.nomargin.alert.alert-success')
+                    ->assertMissing('#pular-questao')
+
+                ;
+            });
+
+        });
+    }
+
+    public function testGabaritoAssuntoExpirado_AVA381()
+    {
+
+        $this->browse(function (Browser $browser) {
+            $browser->visit('/')
+                ->maximize()
+                ->value('#usuario', 'pedroneffi')
+                ->value('#senha', '123')
+                ->click('#btnEntrar')
+                ->whenAvailable('#25103', function ($Disciplina) {
+                    $Disciplina->assertSourceHas('class="curso borda6 TarefaVencida"');
+                });
+            $this->browse(function(Browser $browser){
+                $browser->clickLink('SAE - Química: 9º ano')
+                    ->clickLink('1. Matéria e energia')
+                    ->pause(1000)
+                    ->clickLink('Questão')
+                    ->assertVisible('.nomargin.alert.alert-success')
+                    ->click('#pular-questao')
+                    ->pause(1000)
+                    ->assertVisible('.nomargin.alert.alert-success')
+                    ->click('#pular-questao')
+                    ->pause(1000)
+                    ->assertVisible('.nomargin.alert.alert-success')
+                    ->click('#pular-questao')
+                    ->pause(1000)
+                    ->assertVisible('.nomargin.alert.alert-success')
+                ;
+            });
+
+        });
+    }
+
+    public function testVideoExpirado_AVA508()
+    {
+
+        $this->browse(function (Browser $browser) {
+            $browser->visit('/')
+                ->maximize()
+                ->value('#usuario', 'pedroneffi')
+                ->value('#senha', '123')
+                ->click('#btnEntrar')
+                ->whenAvailable('#25103', function ($Disciplina) {
+                    $Disciplina->assertSourceHas('class="curso borda6 TarefaVencida"');
+                });
+        $this->browse(function(Browser $browser){
+            $browser->clickLink('SAE - Química: 9º ano')
+                ->clickLink('1. Matéria e energia')
+                ->visit('curso/sae-quimica-9-ordm-ano/materia-e-energia/00898920220107/2')
+                ->whenAvailable('.esquerda', function($video){
+                    $video->assertSee('Ops, prazo de atividade expirou!')
+                        ->assertSee(' Por esse motivo o percentual assistido não sera computado!')
+                        ;
+                })
+
+            ;
+        });
+
+        });
+    }
+
+    public function testPrimeiroAcessoAVA463()
+    {
+
+        $this->browse(function (Browser $browser) {
+            $browser->visit('/')
+                ->maximize()
+                ->value('#usuario', 'alunotestef1zzz')
+                ->value('#senha','aluno@saedigital')
+
+                ->click('#btnEntrar')
+            ;
+            $browser->assertSee('Cadastrar Dados Primeiro Login')
+                ->assertSee('Nova Senha *')
+                ->assertVisible('#salvarPrimeiroLogin');
+
+
+        });
+
+    }
+
     public function testAudioEstrangeiraEF_AVA383()
     {
 

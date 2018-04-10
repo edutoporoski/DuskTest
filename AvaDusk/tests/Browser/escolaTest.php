@@ -51,19 +51,10 @@ class escolaTest extends DuskTestCase
         $this->browse(function (Browser $browser){
             $browser->visit('cadastro/listarTurma')
                 ->clickLink('Nova Turma')
-//                ->value('#inputDescricao', 'Turma'.$this->GUID())
+
                 ->click('#inputSerie_chosen')
                 ->pause(200)
                 ->keys('.chosen-search input', 'Infantil V',['{Enter}'])
-//                ->click('#inputVigencia_chosen')
-//                ->pause(200)
-//                ->keys('#inputVigencia_chosen div div input', '2018',['{Enter}'])
-//                ->pause(1000)
-//                ->click('#divCategoria spam')
-//                ->pause(200)
-//                ->value('#inputCategoriaTxt','cat'.$this->GUID())
-
-
                 ->clickLink('Salvar')
                 ->whenAvailable('.messi',function ($Modal){
                     $Modal->assertSee('Todos os campos obrigatórios devem ser preenchidos!')
